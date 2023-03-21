@@ -4,6 +4,8 @@ import { Colorbox } from './Colorbox';
 import {Counter} from './Counter';
 import {useState} from 'react';
 import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
+
 
 
 
@@ -84,23 +86,23 @@ function App() {
     <div className="App">
 
     <div className="add-movie-form">
-    <input
-        onChange={(event) => setName(event.target.value)}
-        placeholder="Enter the name"
-    />
-    <input
-        onChange={(event) => setPoster(event.target.value)}
-        placeholder="Enter the poster url"
-    />
-    <input
-        onChange={(event) => setRating(event.target.value)}
-        placeholder="Enter the rating"
-    />
-    <input
-        onChange={(event) => setSummary(event.target.value)}
-        placeholder="Enter the summary"
-    />
-    
+    <TextField 
+    onChange={(event) => setName(event.target.value)}    
+    label="Name"
+    variant="standard" />
+    <TextField 
+    onChange={(event) => setPoster(event.target.value)}
+    label="Poster url"
+    variant="standard" />
+    <TextField 
+    onChange={(event) => setRating(event.target.value)}
+    label="Rating"
+    variant="standard" />
+    <TextField 
+    onChange={(event) => setSummary(event.target.value)}
+    label="Summary"
+    variant="standard" />
+
     <Button variant="contained"
        onClick={()=>{
         const newMovie = {
@@ -115,9 +117,6 @@ function App() {
     >Add movie</Button>
 
     </div>
- 
-
-    
 
     <div className="movie-list">
     {movieList.map((mv) => (<Movie movie={mv} />))}
