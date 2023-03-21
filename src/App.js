@@ -3,6 +3,9 @@ import './App.css';
 import { Colorbox } from './Colorbox';
 import {Counter} from './Counter';
 import {useState} from 'react';
+import Button from '@mui/material/Button';
+
+
 
 const INITIAL_MOVIE_LIST = [
   {
@@ -97,20 +100,20 @@ function App() {
         onChange={(event) => setSummary(event.target.value)}
         placeholder="Enter the summary"
     />
-
-    <button 
-   
-    onClick={()=>{
-      const newMovie = {
-        name: name,
-        poster: poster,
-        rating: rating,
-        summary: summary,
+    
+    <Button variant="contained"
+       onClick={()=>{
+        const newMovie = {
+          name: name,
+          poster: poster,
+          rating: rating,
+          summary: summary,
+        }
+        setMovieList([...movieList,newMovie])
       }
-      setMovieList([...movieList,newMovie])
-    }
-    }
-    >Add movie</button>
+      }
+    >Add movie</Button>
+
     </div>
  
 
