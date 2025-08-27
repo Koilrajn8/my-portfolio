@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f226c158.css",
+    "main.js": "/static/js/main.bc4b4040.js",
+    "static/js/397.65dcf973.chunk.js": "/static/js/397.65dcf973.chunk.js",
+    "static/js/303.cc0887b0.chunk.js": "/static/js/303.cc0887b0.chunk.js",
+    "static/js/186.b9da2ba6.chunk.js": "/static/js/186.b9da2ba6.chunk.js",
+    "static/js/919.a70390fa.chunk.js": "/static/js/919.a70390fa.chunk.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/js/231.d478ed8f.chunk.js": "/static/js/231.d478ed8f.chunk.js",
+    "static/js/872.f365485d.chunk.js": "/static/js/872.f365485d.chunk.js",
+    "static/media/Profilepickoil.jpg": "/static/media/Profilepickoil.59b5e8b5127a6e7bebd7.jpg",
+    "index.html": "/index.html",
+    "main.f226c158.css.map": "/static/css/main.f226c158.css.map",
+    "main.bc4b4040.js.map": "/static/js/main.bc4b4040.js.map",
+    "397.65dcf973.chunk.js.map": "/static/js/397.65dcf973.chunk.js.map",
+    "303.cc0887b0.chunk.js.map": "/static/js/303.cc0887b0.chunk.js.map",
+    "186.b9da2ba6.chunk.js.map": "/static/js/186.b9da2ba6.chunk.js.map",
+    "919.a70390fa.chunk.js.map": "/static/js/919.a70390fa.chunk.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map",
+    "231.d478ed8f.chunk.js.map": "/static/js/231.d478ed8f.chunk.js.map",
+    "872.f365485d.chunk.js.map": "/static/js/872.f365485d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f226c158.css",
+    "static/js/main.bc4b4040.js"
+  ]
+}
