@@ -8,7 +8,7 @@ const projects = [
     description: "A personal portfolio website to showcase my skills and projects.",
     type: "Personal",
     techStack: "React, Tailwind CSS",
-    link: "https://myportfolio.com"
+    link: "https://my-portfolio-koilraj.vercel.app/"
   },
 ];
 
